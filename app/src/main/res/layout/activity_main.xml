@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/textname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME" />
+
+    <EditText
+        android:id="@+id/textFname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textname"
+        android:layout_marginTop="57dp"
+        android:text="FATHER NAME" />
+
+    <EditText
+        android:id="@+id/textage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textFname"
+        android:layout_marginTop="57dp"
+        android:text="AGE" />
+
+
+    <EditText
+        android:id="@+id/textNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textage"
+        android:layout_marginTop="57dp"
+        android:text="NUMBER" />
+
+    <Button
+        android:id="@+id/btnsent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sent"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textNumber"/>
+
+</RelativeLayout>
